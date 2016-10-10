@@ -25,17 +25,19 @@
     <div class="square"></div>
     <div id="steve">
       <h1>You clicked it....</h1>
-      <img src="../my-first-webpage/img/steve.jpg" alt="" />
+      <img onclick="myFunction()" src="../my-first-webpage/img/steve.jpg" alt="" />
     </div>
-    <button onclick="myFunction()" class="butn" type="Button" name="Malware Here">Don't click this</button>
+    <button id="btn" onclick="myFunction()" class="butn" type="Button" name="Malware Here">Don't click this</button>
     <script type="text/javascript">
       function myFunction() {
         if(document.getElementById("steve").style.display == "block") {
           document.getElementById("steve").style.display = "none";
+          document.getElementById('btn').style.display = "inline-block";
 
         }
         else {
           document.getElementById("steve").style.display = "block";
+          document.getElementById('btn').style.display = "none";
         }
       }
 
