@@ -2,11 +2,42 @@
 <html>
   <head>
     <title>Dog Blog</title>
+    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <h1>My dog likes to bark,</h1>
-    <h2>a lot.</h2>
-    <h3>He also likes walks.</h3>
-    <h4>He is a Beagel</h4>
+    <h1>Dog Blog</h1>
+    <h2>7 things my dog likes!</h2>
+    <h3>#5 may surprise you</h3>
+    <img src="img/squad.jpg" alt="My squad">
+
+    <div class="background">
+      <ol>
+        <li>Walks</li>
+        <li>Walking</li>
+        <li>Going on walks</li>
+        <li>Pistachios?</li>
+        <li>Taylor's face</li>
+        <li>Coding</li>
+      </ol>
+    </div>
+    <div class="square"></div>
+    <div id="steve">
+      <h1>You clicked it....</h1>
+      <img src="../my-first-webpage/img/steve.jpg" alt="" />
+    </div>
+    <button onclick="myFunction()" class="butn" type="Button" name="Malware Here">Don't click this</button>
+    <script type="text/javascript">
+      function myFunction() {
+        if(document.getElementById("steve").style.display == "block") {
+          document.getElementById("steve").style.display = "none";
+
+        }
+        else {
+          document.getElementById("steve").style.display = "block";
+        }
+      }
+
+    </script>
+
   </body>
 </html>

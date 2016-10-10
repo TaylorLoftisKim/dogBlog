@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+.background {
+  text-align: left;
+}
+
+img {
+  border-radius: 100%;
+}
+
+button {
+  background-color: #4286f4;
+  color: #fff;
+  width: 360px;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 10px;
+  border-color: #00368e;
+  border-width: medium;
+  font-family: 'helvetica';
+}
+
+.butn {
+  background-color: #123456;
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  border-width: medium;
+  font-family: fantasy;
+}
+
+#steve {
+  display: none;
+}
