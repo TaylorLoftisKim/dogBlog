@@ -24,7 +24,7 @@
     </div>
     <div class="square"></div>
     <div id="steve">
-      <img onclick="myFunction()" src="../my-first-webpage/img/steve.jpg" alt="" />
+      <img id="harvey" onclick="bigFace()" src="../my-first-webpage/img/steve.jpg" alt="" />
     </div>
     <button id="btn" onclick="myFunction()" class="butn" type="Button" name="Steve Harvey Button">Click here to see my dog's favorite TV host</button>
     <script type="text/javascript">
@@ -38,6 +38,11 @@
           document.getElementById("steve").style.display = "block";
           document.getElementById('btn').style.display = "none";
         }
+      }
+
+      function bigFace() {
+        document.getElementById('harvey').style.width = "1000px";
+        document.getElementById('harvey').style.height = "1000px";
       }
     </script>
   <br><a href="cat.html">cat</a>
