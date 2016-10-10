@@ -34,3 +34,8 @@ button {
 #steve {
   display: none;
 }
+
+.header {
+ background-color: #123456;
+ color: #ffffff;
+}
