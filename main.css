@@ -2,7 +2,7 @@ body {
   text-align: center;
 }
 
-.background {
+li {
   text-align: left;
 }
 
@@ -39,4 +39,8 @@ button {
 .header {
  background-color: #123456;
  color: #ffffff;
+}
+
+a:visited {
+  color: inherit;
 }
