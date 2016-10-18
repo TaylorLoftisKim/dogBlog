@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+}
+
+li {
+  text-align: left;
+}
+
+img {
+  border-radius: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: #4286f4;
+  color: #fff;
+  width: 360px;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 10px;
+  border-color: #00368e;
+  border-width: medium;
+  font-family: 'helvetica';
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+.btn-danger:focus,
+.btn-danger.focus {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: #333333;
+  border-color: #333333 ;
+}
+.btn-danger:active,
+.btn-danger.active,
+.open > .dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+.btn-danger:active:hover,
+.btn-danger.active:hover,
+.open > .dropdown-toggle.btn-danger:hover,
+.btn-danger:active:focus,
+.btn-danger.active:focus,
+.open > .dropdown-toggle.btn-danger:focus,
+.btn-danger:active.focus,
+.btn-danger.active.focus,
+.open > .dropdown-toggle.btn-danger.focus {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+.butn {
+  background-color: #123456;
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  border-width: medium;
+  font-family: fantasy;
+}
+
+#steve {
+  display: none;
+}
+
+.header {
+ background-color: #123456;
+ color: #ffffff;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.light {
+  background-color: #e5e5e5;
+  color: black;
+}
+.dark {
+  background-color: grey;
+  color: white;
+}
